@@ -5,14 +5,20 @@ export const LayoutGallery = styled.div`
   height: 100vh;
   background: #ffffe0;
   margin: 0px;
+  padding-top: 20px
 `;
 
 export const ContainerGallery = styled.div`
   text-align: center;
   width: 95%;
+  height: 50px
   background: #ffffe0;
   box-sizing: content-box;
   margin: 0px auto;
+
+  @media screen and (max-width: 768px) {
+    width: 85%;
+  }
 `;
 
 export const CharacterTitleGallery = styled.div`
